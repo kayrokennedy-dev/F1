@@ -85,7 +85,7 @@ main{
     .car{
         animation: car 6s ease-in-out forwards;
         img{
-            width: 1300px;
+            width: 1200px;
             transform: translate(-3%, -15%);
 
         }
@@ -127,13 +127,13 @@ main{
 }
 @keyframes car {
     0%{
-        transform: translate(-100%, -3%);
+        transform: translate(-100%, -1%);
     }
     50%{
-        transform: translate(-100%, -3%);
+        transform: translate(-100%, -1%);
     }
     100%{
-        transform: translate(-3%, -3%);
+        transform: translate(-2%, -1%);
     }
 }
 @keyframes logo {
