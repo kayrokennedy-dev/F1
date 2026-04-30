@@ -1,0 +1,370 @@
+
+@media screen and (min-width: 1024px) and (max-width: 1359px) {
+    
+    body{
+        height: 100vh;
+
+        .logo-back{
+            top: -0%;
+        }
+    }
+    header{
+
+        img{
+            width: 200px;
+        }
+
+    }
+    main{
+        display: flex;
+        justify-content: flex-end;
+        padding: 0px 30px;
+
+        .info{
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            height: 74vh;
+        }
+
+        .sobre{
+            width: 35vw;
+        }
+
+        .car{
+            img{
+                width: 800px;
+                transform: translate(-3%, -0%);
+            }
+        }
+        .pilotos{
+            img{
+                width: 130px;
+            }
+        }
+    }
+
+    @keyframes logo {
+        0%{
+            position: absolute;
+            top: 5%;
+            left: 10%;
+            width: 800px;
+        }
+        50%{
+            position: absolute;
+            top: 5%;
+            left: 10%;
+            width: 800px;
+        }
+        100%{
+
+        }
+    }
+}
+@media screen and (min-width: 1361px) and (max-width: 1599px) {  
+    body{
+        min-height: 100vh;
+
+        .logo-back{
+            top: -10%;
+            right: -4%;
+        }
+    }
+    header{
+
+        img{
+            width: 450px;
+        }
+        
+        nav{
+
+            ul{
+                gap: 20px;
+
+                li{
+                    margin: 10vh auto;
+                    font-size: 35px;
+                }
+            }
+        }
+    }
+    main{
+
+        .info{
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            height: 65vh;
+        }
+
+        .sobre{
+            width: 35vw;
+
+            h1{
+                font-size: 40px;
+            }
+
+            p{
+                font-size: 25px;
+            }
+        }
+
+        .car{
+
+            img{
+                width: 1500px;
+                transform: translate(-3%, -5%);
+
+            }
+        }
+        .pilotos{
+            img{
+                width: 250px;
+            }
+        }
+    }
+    @keyframes logo {
+        0%{
+            position: absolute;
+            top: 15%;
+            left: 22%;
+            width: 1100px;
+        }
+        50%{
+            position: absolute;
+            top: 15%;
+            left: 22%;
+            width: 1100px;
+        }
+        100%{
+
+        }
+    }
+
+}
+@media screen and (min-width: 1600px) and (max-width: 1919px) {
+    body{
+        min-height: 100vh;
+
+        .logo-back{
+            top: -10%;
+            right: -4%;
+        }
+    }
+
+    header{
+
+        img{
+            width: 300px;
+        }
+        
+        nav{
+
+            ul{
+                gap: 20px;
+
+                li{
+                    margin: 7vh auto;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+    main{
+
+        .info{
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            height: 65vh;
+        }
+
+        .sobre{
+            width: 35vw;
+
+            h1{
+                font-size: 30px;
+            }
+
+            p{
+                font-size: 20px;
+            }
+        }
+
+        .car{
+
+            img{
+                width: 1200px;
+                transform: translate(-3%, -0%);
+
+            }
+        }
+        .pilotos{
+            img{
+                width: 250px;
+            }
+        }
+    }
+    @keyframes logo {
+        0%{
+            position: absolute;
+            top: 15%;
+            left: 15%;
+            width: 1100px;
+        }   
+        50%{
+            position: absolute;
+            top: 15%;
+            left: 15%;
+            width: 1100px;
+        }
+        100%{
+
+        }
+    }
+}
+@media screen and (min-width: 1920px) {
+    body{
+        min-height: 100vh;
+
+        .logo-back{
+            top: -10%;
+            right: -4%;
+        }
+    }
+    header{
+
+        img{
+            width: 450px;
+        }
+        
+        nav{
+
+            ul{
+                gap: 20px;
+
+                li{
+                    margin: 10vh auto;
+                    font-size: 35px;
+                }
+            }
+        }
+    }
+    main{
+
+        .info{
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            height: 65vh;
+        }
+
+        .sobre{
+            width: 35vw;
+
+            h1{
+                font-size: 40px;
+            }
+
+            p{
+                font-size: 25px;
+            }
+        }
+
+        .car{
+
+            img{
+                width: 1500px;
+                transform: translate(-3%, -5%);
+
+            }
+        }
+        .pilotos{
+            img{
+                width: 250px;
+            }
+        }
+    }
+    @keyframes logo {
+        0%{
+            position: absolute;
+            top: 15%;
+            left: 22%;
+            width: 1100px;
+        }
+        50%{
+            position: absolute;
+            top: 15%;
+            left: 22%;
+            width: 1100px;
+        }
+        100%{
+
+        }
+    }
+}
+@media screen and (min-width: 1921px) and (max-width: 2560px) {
+
+    body{
+        min-height: 100vh;
+
+        .logo-back{
+            width: 100vw;
+            top: -5%;
+            right: -2%;
+        }
+    }
+
+    header{
+
+        img{
+            width: 550px;
+        }
+        nav{
+            ul{
+                li{
+                    font-size: 40px;
+                    margin: 10vh auto;
+                }
+            }
+        }
+    }
+    main{
+        .info{
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+        .sobre{
+            width: 35vw;
+
+            h1{
+                font-size: 60px;
+            }
+
+            p{
+                font-size: 35px;
+            }
+        }
+
+        .car{
+            img{
+                width: 2000px;
+                transform: translate(-3%, -5%);
+            }
+        }
+        .pilotos{
+            img{
+                width: 350px;
+            }
+        }
+    }
+    @keyframes logo {
+        0%{
+            position: absolute;
+            top: 23%;
+            left: 27%;
+            width: 1300px;
+        }
+        50%{
+            position: absolute;
+            top: 23%;
+            left: 27%;
+            width: 1300px;
+        }
+        100%{
+
+        }
+    }
+}
